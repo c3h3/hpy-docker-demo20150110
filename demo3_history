@@ -1,0 +1,33 @@
+    1  ls
+    2  apt-get update
+    3  vim
+    4  vi test.txt
+    5  vi
+    6  echo "hello docker" > test.txt
+    7  ls
+    8  cat test.txt 
+    9  exit
+   10  ls
+   11  mkdir data
+   12  ls
+   13  exit
+   14  spt-get update
+   15  apt-get update
+   16  python
+   17  apt-get install python
+   18  python
+   19  ls
+   20  mkdir demo_web
+   21  cd demo_web/
+   22  ls
+   23  echo "Hello, Docker with Python!" > index.html
+   24  ls
+   25  python -m SimpleHTTPServer 8080
+   26  exit
+   27  echo "cd demo_web&&python -m SimpleHTTPServer 8b/python2.7/SimpleHTTPServer.py", line 230, in <module>run.sh
+   28      test()
+   29  echo "cd demo_web&&python -m SimpleHTTPServer 8888" > run.sh
+   30  ls
+   31  sh run.sh 
+   32  exit
+   33  history 
