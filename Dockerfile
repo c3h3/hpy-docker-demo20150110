@@ -1,4 +1,4 @@
-FROM c3h3/oblas-py278
+FROM debian:jessie
 
 MAINTAINER Chia-Chi Chang <c3h3.tw@gmail.com>
 
@@ -10,4 +10,6 @@ WORKDIR /demo_web
 
 RUN echo "Hello, Docker with Python!" > index.html
 
-CMD python -m SimpleHTTPServer 8888
+ENV WEB_PORT 8888
+
+CMD python -m SimpleHTTPServer $WEB_PORT
